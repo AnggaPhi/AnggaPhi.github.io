@@ -58,22 +58,6 @@ window.addEventListener('scroll', () => {
 });
 
 // ====================
-// Floating Stickers Interaction
-// ====================
-document.querySelectorAll('.sticker').forEach(sticker => {
-    sticker.addEventListener('mouseenter', () => {
-        sticker.style.transition = 'transform 0.3s ease';
-        sticker.style.transform = 'scale(1.3) rotate(15deg)';
-        sticker.style.opacity = '1';
-    });
-
-    sticker.addEventListener('mouseleave', () => {
-        sticker.style.transform = 'scale(1) rotate(0deg)';
-        sticker.style.opacity = '0.6';
-    });
-});
-
-// ====================
 // Active Navigation Link
 // ====================
 const sections = document.querySelectorAll('section[id]');
