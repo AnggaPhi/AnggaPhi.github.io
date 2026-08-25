@@ -288,10 +288,11 @@ ul {
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: var(--text-secondary);
     margin-bottom: 1rem;
     animation: fadeInUp 0.8s ease 0.4s both;
+    font-weight: 600;
 }
 
 .hero-description {
@@ -484,7 +485,7 @@ ul {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -564,6 +565,7 @@ ul {
 .timeline-item:nth-child(5) { animation-delay: 0.5s; }
 .timeline-item:nth-child(6) { animation-delay: 0.6s; }
 .timeline-item:nth-child(7) { animation-delay: 0.7s; }
+.timeline-item:nth-child(8) { animation-delay: 0.8s; }
 
 @keyframes fadeInLeft {
     from {
@@ -654,6 +656,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+    margin-bottom: 3rem;
 }
 
 .education-card {
@@ -665,6 +668,9 @@ ul {
     transition: var(--transition-normal);
     opacity: 0;
     animation: fadeInUp 0.6s ease forwards;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .education-card:nth-child(1) { animation-delay: 0.1s; }
@@ -703,6 +709,69 @@ ul {
 .education-description {
     color: var(--text-secondary);
     line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+}
+
+.btn-cert {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    background: var(--bg-secondary);
+    color: var(--primary-dark);
+    border: 1px solid var(--border);
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: var(--transition-fast);
+}
+
+.btn-cert:hover {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+/* Technical Pursuits & Interests Box */
+.pursuits-box {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 6px 20px var(--shadow);
+}
+
+.pursuits-box h3 {
+    font-size: 1.4rem;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+}
+
+.pursuits-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.tag {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+    padding: 0.75rem 1.25rem;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: var(--transition-fast);
+}
+
+.tag:hover {
+    background: var(--primary-light);
+    transform: translateY(-2px);
 }
 
 /* ==================== */
