@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angga Prawira | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Floating Stickers -->
+    <div class="floating-stickers">
+        <div class="sticker sticker-1">🏺</div>
+        <div class="sticker sticker-2">🖨️</div>
+        <div class="sticker sticker-3">🤖</div>
+        <div class="sticker sticker-4">📚</div>
+        <div class="sticker sticker-5">💻</div>
+    </div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
@@ -30,11 +39,10 @@
             <h1 class="hero-title">
                 Hi, I'm <span class="gradient-text">Angga Prawira</span>
             </h1>
-            <p class="hero-subtitle">E-Commerce Specialist | Digital Marketing | IT Support</p>
+            <p class="hero-subtitle">E-Commerce Specialist | 3D Printing Specialist | AI Explorer | IT Consultant</p>
             <p class="hero-description">
-                Tech-savvy professional with hands-on experience in e-commerce management,
-                digital marketing, and IT support. Passionate about optimizing digital experiences
-                and solving technical challenges.
+                Multi-disciplinary professional skilled in e-commerce optimization, 3D modeling & printing,
+                AI prompt engineering, digital marketing, and IT infrastructure support. Passionate about merging technology, craft, and innovative problem-solving.
             </p>
             <div class="hero-buttons">
                 <a href="#contact" class="btn btn-primary">
@@ -46,7 +54,7 @@
                 </a>
             </div>
             <div class="hero-socials">
-                <a href="https://linkedin.com/in/anggaprawira/" target="_blank" class="social-link" title="LinkedIn">
+                <a href="https://linkedin.com/in/anggaprawira/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" fill="currentColor"/>
                     </svg>
@@ -67,17 +75,16 @@
                 </div>
                 <div class="code-content">
                     <code>
-                        <span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+                        <span class="code-keyword">const</span> <span class="code-variable">angga</span> = {
                         <br>&nbsp;&nbsp;<span class="code-property">name</span>: <span class="code-string">"Angga Prawira"</span>,
-                        <br>&nbsp;&nbsp;<span class="code-property">role</span>: <span class="code-string">"E-Commerce & IT"</span>,
-                        <br>&nbsp;&nbsp;<span class="code-property">location</span>: <span class="code-string">"Tangerang Selatan"</span>,
-                        <br>&nbsp;&nbsp;<span class="code-property">skills</span>: [
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"E-Commerce"</span>,
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Digital Marketing"</span>,
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"IT Support"</span>,
-                        <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"Teaching"</span>
+                        <br>&nbsp;&nbsp;<span class="code-property">location</span>: <span class="code-string">"Tangerang Selatan, Banten"</span>,
+                        <br>&nbsp;&nbsp;<span class="code-property">focusAreas</span>: [
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"E-Commerce & Digital Marketing"</span>,
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"3D Modeling & Printing (Blender, Cura)"</span>,
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"AI Prompt Engineering & Agents"</span>,
+                        <br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-string">"IT Infrastructure & Support"</span>
                         <br>&nbsp;&nbsp;],
-                        <br>&nbsp;&nbsp;<span class="code-property">passion</span>: <span class="code-string">"Tech & Innovation"</span>
+                        <br>&nbsp;&nbsp;<span class="code-property">interests</span>: [<span class="code-string">"Book Collecting"</span>, <span class="code-string">"Pottery Craft"</span>]
                         <br>};
                     </code>
                 </div>
@@ -94,39 +101,54 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        I'm a versatile professional with a unique blend of technical and business expertise.
-                        Currently, I'm managing multi-channel e-commerce operations at Rumah Tanah Liat Citra,
-                        where I optimize product listings across Shopee, Tokopedia, and TikTok Shop.
+                        I'm a versatile tech-driven professional based in Tangerang Selatan, Banten. My experience spans multi-channel e-commerce operations, 3D modeling and hardware additive manufacturing, AI prompt engineering & agent exploration, digital marketing, and IT infrastructure management.
                     </p>
                     <p>
-                        My journey spans from IT support and ICT teaching to digital marketing and live commerce.
-                        I'm passionate about leveraging technology to enhance customer experiences and streamline
-                        business operations.
+                        At <strong>Rumah Tanah Liat Citra</strong>, I currently manage multi-channel product synchronization across major platforms like Shopee, Tokopedia, and TikTok Shop, while also maintaining workshop craft setups and designing interactive QR code tutorials for customers.
                     </p>
                     <p>
-                        Beyond my professional work, I'm constantly learning and exploring new technologies,
-                        from AI to cybersecurity, always looking for innovative ways to solve problems.
+                        With a background in 3D modeling (Blender) & 3D printing engineering (Anycubic Kobra Go, Ultimaker Cura), IT support consulting, ICT teaching, and live streaming commerce, I thrive on continuous learning and hands-on technological exploration.
                     </p>
 
                     <div class="skills-grid">
                         <div class="skill-category">
-                            <h3>💼 E-Commerce & Marketing</h3>
+                            <h3>🛒 E-Commerce & Marketing</h3>
                             <ul>
-                                <li>Multi-Channel Management</li>
-                                <li>SEO Optimization</li>
-                                <li>Live Streaming & Hosting</li>
-                                <li>Social Media Management</li>
-                                <li>Meta Ads & Google Business</li>
+                                <li>Multi-Channel Management (Shopee, Tokopedia, TikTok Shop)</li>
+                                <li>Product Listing Optimization & Visual Aesthetics</li>
+                                <li>Live Streaming & Audience Engagement</li>
+                                <li>SEO, Social Media & Meta Ads</li>
+                                <li>Customer Experience (CX) & Interactive QR Solutions</li>
                             </ul>
                         </div>
                         <div class="skill-category">
-                            <h3>💻 Technical Skills</h3>
+                            <h3>🖨️ 3D Modeling & Manufacturing</h3>
                             <ul>
-                                <li>IT Support & Troubleshooting</li>
-                                <li>System Maintenance & Security</li>
-                                <li>Network Management</li>
-                                <li>ICT Education</li>
-                                <li>AI & Cybersecurity (Learning)</li>
+                                <li>Blender (v3.82+) 3D Modeling & Clean Topology</li>
+                                <li>3D Printing Operations (Anycubic Kobra Go)</li>
+                                <li>Ultimaker Cura Slicing & Infill Parameter Tuning</li>
+                                <li>Precision Digital Caliper Measurement</li>
+                                <li>Functional Prototypes & Mechanical Structural Engineering</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>💻 IT Support & Infrastructure</h3>
+                            <ul>
+                                <li>Hardware, Software & Network Troubleshooting</li>
+                                <li>System Maintenance, Backups & Security Enhancements</li>
+                                <li>IT Infrastructure Setup & Downtime Reduction</li>
+                                <li>ICT Education & Virtual Classroom Management</li>
+                                <li>Ethical Hacking & Counter Hacking Principles</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>🤖 AI & Technical Interests</h3>
+                            <ul>
+                                <li>AI Prompt Engineering</li>
+                                <li>Agent Exploration (Claude, OpenCode)</li>
+                                <li>Ethical Hacking & Cyber Security Certification</li>
+                                <li>Workshop Equipment Setup & Pottery Craft Support</li>
+                                <li>Book Collecting</li>
                             </ul>
                         </div>
                     </div>
@@ -151,11 +173,11 @@
                         <h3>E-Commerce Store Associate</h3>
                         <h4>Rumah Tanah Liat Citra | Tangerang Selatan</h4>
                         <ul class="timeline-list">
-                            <li>Managed multi-channel product listings across Shopee, Tokopedia, and TikTok Shop</li>
-                            <li>Optimized product visuals and descriptions to enhance engagement and conversion rates</li>
-                            <li>Maintained inventory accuracy through regular digital and physical stock updates</li>
-                            <li>Designed interactive QR code product tutorials, reducing customer inquiries</li>
-                            <li>Oversaw end-to-end order fulfillment with strict quality control</li>
+                            <li>Managed and synchronized multi-channel product listings across major e-commerce platforms, including Shopee, Tokopedia, and TikTok Shop, to expand market reach and ensure product data consistency.</li>
+                            <li>Optimized product visuals and descriptions by updating high-quality images, videos, and specifications to enhance store aesthetics, drive engagement, and improve conversion rates.</li>
+                            <li>Maintained inventory accuracy by performing regular digital and physical stock updates to mitigate the risk of order cancellations due to stock discrepancies.</li>
+                            <li>Enhanced customer experience (CX) by conceptualizing and designing interactive QR code product tutorials included in purchase packages, successfully minimizing customer inquiries and post-purchase complaints.</li>
+                            <li>Oversaw the end-to-end order fulfillment process, including strict quality control, secure standardized packaging, and logistics coordination to guarantee timely and accurate order dispatch.</li>
                         </ul>
                     </div>
                 </div>
@@ -168,10 +190,10 @@
                         <h3>Workshop Support Staff</h3>
                         <h4>Rumah Tanah Liat Citra | Tangerang Selatan</h4>
                         <ul class="timeline-list">
-                            <li>Managed workshop equipment maintenance and organization</li>
-                            <li>Prepared workshop setups and ensured equipment functionality</li>
-                            <li>Assisted participants with pottery-making guidance</li>
-                            <li>Supported instructors to maintain efficient workflow</li>
+                            <li>Managed cleaning, maintenance, and organization of craft equipment, including pottery wheels, tools, and aprons, ensuring a safe and hygienic workshop environment.</li>
+                            <li>Prepared workshop setups by arranging materials, tools, and participant workstations, while ensuring all equipment functioned properly before each session.</li>
+                            <li>Assisted participants during activities by providing basic guidance in pottery-making and maintaining clear, friendly communication to enhance their experience.</li>
+                            <li>Supported instructors during sessions by distributing materials, monitoring participant needs, and helping maintain a smooth and efficient workflow.</li>
                         </ul>
                     </div>
                 </div>
@@ -184,9 +206,9 @@
                         <h3>Live Host Intern</h3>
                         <h4>Arinda Food | Tangerang Selatan</h4>
                         <ul class="timeline-list">
-                            <li>Hosted live streaming sessions and drove sales through effective communication</li>
-                            <li>Engaged with viewers in real-time and boosted audience engagement</li>
-                            <li>Collaborated with team and analyzed performance metrics</li>
+                            <li>Hosted live streaming sessions, presented products clearly, and drove sales through effective communication and selling techniques.</li>
+                            <li>Engaged with viewers in real-time by responding to comments, answering questions, and using interactive strategies to boost audience engagement.</li>
+                            <li>Collaborated with the team, followed live run-downs, and analyzed performance metrics to improve future live sessions.</li>
                         </ul>
                     </div>
                 </div>
@@ -195,14 +217,15 @@
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <span class="timeline-date">Sep 2024 – Aug 2025</span>
-                        <h3>Digital Marketing Assistant</h3>
-                        <h4>Arinda Food | Tangerang Selatan</h4>
+                        <span class="timeline-date">Oct 2024 – Nov 2025</span>
+                        <h3>Freelance 3D Modeling & Printing Specialist</h3>
+                        <h4>Freelance | Tangerang Selatan</h4>
                         <ul class="timeline-list">
-                            <li>Managed social media content creation, scheduling, and engagement</li>
-                            <li>Supported digital marketing campaigns with SEO optimization</li>
-                            <li>Managed Meta Ads and Google Business</li>
-                            <li>Monitored performance metrics and prepared optimization reports</li>
+                            <li>Managed end-to-end 3D printing operations utilizing the Anycubic Kobra Go, routinely performing complex mechanical calibrations—including precise bed leveling and 3-axis adjustments—to maintain optimal machine performance and print fidelity.</li>
+                            <li>Engineered functional prototypes and robust components tailored for real-world utility and high-stress applications, such as specialized joints, brackets, or load-bearing parts used within larger structural frameworks and foundational building projects.</li>
+                            <li>Translated physical dimensions into highly accurate digital models by utilizing digital calipers to achieve precise millimeter accuracy, ensuring all printed parts fit their intended mechanical purposes perfectly.</li>
+                            <li>Designed and manipulated complex 3D geometries using Blender (v3.82+), emphasizing spatial computing, structural integrity, and clean topological design.</li>
+                            <li>Optimized production workflows by slicing models in Ultimaker Cura, strategically adjusting print parameters like infill density, support structures, and layer height to balance print speed with structural durability.</li>
                         </ul>
                     </div>
                 </div>
@@ -211,14 +234,13 @@
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <span class="timeline-date">Jun 2022 – Jun 2023</span>
-                        <h3>IT Support School Consultant</h3>
-                        <h4>Home School Tunas Bangsa | Tangerang Selatan</h4>
+                        <span class="timeline-date">Sep 2024 – Aug 2025</span>
+                        <h3>Digital Marketing Assistant</h3>
+                        <h4>Arinda Food | Tangerang Selatan</h4>
                         <ul class="timeline-list">
-                            <li>Provided technical support, reducing downtime by 30%</li>
-                            <li>Managed system updates, backups, and security measures</li>
-                            <li>Enhanced network performance by 30% through strategic upgrades</li>
-                            <li>Reduced security incidents by 25%</li>
+                            <li>Managed social media content, including creation, scheduling, and audience engagement to improve brand visibility.</li>
+                            <li>Supported digital marketing campaigns through content creation, SEO optimization for website/blog content, and basic management (Meta Ads, Google Business).</li>
+                            <li>Monitored performance metrics, conducted market research, and prepared reports to optimize campaign effectiveness.</li>
                         </ul>
                     </div>
                 </div>
@@ -227,13 +249,13 @@
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <span class="timeline-date">Jul 2021 – Jun 2022</span>
-                        <h3>ICT Teacher (Junior High School)</h3>
+                        <span class="timeline-date">Jun 2022 – Jun 2023</span>
+                        <h3>IT Support School Consultant</h3>
                         <h4>Home School Tunas Bangsa | Tangerang Selatan</h4>
                         <ul class="timeline-list">
-                            <li>Prepared engaging teaching plans, reducing absenteeism by 30%</li>
-                            <li>Used interactive methods, increasing understanding by 35%</li>
-                            <li>Managed classroom ICT equipment, reducing disruptions by 25%</li>
+                            <li>Provided technical support to students and staff by efficiently resolving hardware, software, and network issues within the school environment, reducing downtime by 30% and improving response times by 25% through effective troubleshooting protocols.</li>
+                            <li>Managed system updates, backups, and security measures for the school's computers, ensuring systems were up-to-date and secure, resulting in a 20% reduction in vulnerabilities and enhancing system reliability by 35% through regular maintenance.</li>
+                            <li>Oversaw the setup and maintenance of the school's IT infrastructure, successfully implementing and maintaining a robust system that enhanced network performance by 30% and improved security through strategic upgrades, reducing security incidents by 25%.</li>
                         </ul>
                     </div>
                 </div>
@@ -242,14 +264,29 @@
                 <div class="timeline-item">
                     <div class="timeline-marker"></div>
                     <div class="timeline-content">
-                        <span class="timeline-date">Jul 2020 – Jun 2021</span>
-                        <h3>Assistant ICT Teacher</h3>
+                        <span class="timeline-date">Jul 2021 – Jun 2022</span>
+                        <h3>Information Communication Technology Teacher (Junior Highschool)</h3>
                         <h4>Home School Tunas Bangsa | Tangerang Selatan</h4>
                         <ul class="timeline-list">
-                            <li>Assisted in delivering ICT lessons, improving engagement by 40%</li>
-                            <li>Streamlined virtual classroom operations during COVID-19</li>
-                            <li>Guided practical exercises, improving students' skills by 30%</li>
-                            <li>Reduced technology-related downtime by 20%</li>
+                            <li>Prepared engaging Semester Programs and Teaching Plans for junior high students (grades 7-9), incorporating principal's suggestions, resulting in a 30% decrease in student absenteeism.</li>
+                            <li>Used interactive methods to encourage discussion and hands-on learning, leading to a 35% increase in students' understanding of ICT concepts.</li>
+                            <li>Efficiently managed classroom ICT equipment and resources, ensuring seamless teaching and learning experiences, resulting in a 25% reduction in technical disruptions during lessons.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 8 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jul 2020 – Jun 2021</span>
+                        <h3>Assistant Teacher for Information Communication Technology Subject</h3>
+                        <h4>Home School Tunas Bangsa | Tangerang Selatan</h4>
+                        <ul class="timeline-list">
+                            <li>Assisted the lead teacher in delivering engaging ICT lessons and preparing instructional materials, resulting in a 40% improvement in student engagement during classes.</li>
+                            <li>Streamlined virtual classroom operations during the global pandemic (COVID-19), ensuring uninterrupted education for 10 students.</li>
+                            <li>Guided students in conducting practical exercises and projects in ICT, leading to a 30% improvement in students' practical skills and project outcomes.</li>
+                            <li>Collaborated on program development and efficiently managed classroom ICT equipment, resulting in a 20% reduction in technology-related downtime and disruptions.</li>
                         </ul>
                     </div>
                 </div>
@@ -270,7 +307,10 @@
                     <h3>Artificial Intelligence</h3>
                     <p class="education-provider">MySkill.id</p>
                     <p class="education-date">Sep 2023</p>
-                    <p class="education-description">Online Course in AI fundamentals and applications</p>
+                    <p class="education-description">Online Course - Artificial Intelligence</p>
+                    <a href="https://drive.google.com" target="_blank" rel="noopener noreferrer" class="cert-link btn-cert">
+                        📄 View Certificate
+                    </a>
                 </div>
 
                 <div class="education-card">
@@ -278,7 +318,10 @@
                     <h3>Ethical Hacking & Counter Hacking</h3>
                     <p class="education-provider">Course-Net.com</p>
                     <p class="education-date">Mar 2021</p>
-                    <p class="education-description">IT for Cyber Security Specialists, Pentesters, and White Hat Hackers</p>
+                    <p class="education-description">Online Course - Ethical Hacking and Counter Hacking IT for Cyber Security Specialists, Pentesters, and White Hat Hackers</p>
+                    <a href="https://drive.google.com" target="_blank" rel="noopener noreferrer" class="cert-link btn-cert">
+                        📄 View Certificate
+                    </a>
                 </div>
 
                 <div class="education-card">
@@ -286,7 +329,17 @@
                     <h3>Ilmu Pengetahuan Sosial</h3>
                     <p class="education-provider">PKBM Tunas Bangsa</p>
                     <p class="education-date">Jan 2017 - Jun 2020</p>
-                    <p class="education-description">Social Sciences education</p>
+                    <p class="education-description">Social Sciences High School Education in Tangerang Selatan</p>
+                </div>
+            </div>
+
+            <!-- Pursuits & Interests Box -->
+            <div class="pursuits-box">
+                <h3>Technical Pursuits & Interests</h3>
+                <div class="pursuits-tags">
+                    <span class="tag">🖨️ 3D Modeling (Blender) & 3D Printing</span>
+                    <span class="tag">🤖 AI Prompt Engineering & Agent Exploration (Claude, OpenCode)</span>
+                    <span class="tag">📚 Book Collecting</span>
                 </div>
             </div>
         </div>
@@ -301,8 +354,8 @@
 
             <div class="contact-content">
                 <p class="contact-text">
-                    I'm currently open to new opportunities and collaborations.
-                    Whether you have a question or just want to say hi, feel free to reach out!
+                    I'm currently open to new opportunities, freelance projects, and tech collaborations.
+                    Whether you have a question or want to discuss e-commerce, 3D printing, AI, or IT support, feel free to reach out!
                 </p>
 
                 <div class="contact-cards">
@@ -312,13 +365,13 @@
                         <p>anggaprawira5.0@outlook.com</p>
                     </a>
 
-                    <a href="tel:+6285910668901" class="contact-card">
+                    <a href="tel:+62859106689010" class="contact-card">
                         <div class="contact-card-icon">📱</div>
                         <h3>Phone</h3>
-                        <p>+62 8591-0668-9010</p>
+                        <p>+62-8591-0668-9010</p>
                     </a>
 
-                    <a href="https://linkedin.com/in/anggaprawira/" target="_blank" class="contact-card">
+                    <a href="https://linkedin.com/in/anggaprawira/" target="_blank" rel="noopener noreferrer" class="contact-card">
                         <div class="contact-card-icon">💼</div>
                         <h3>LinkedIn</h3>
                         <p>linkedin.com/in/anggaprawira/</p>
