@@ -33,7 +33,7 @@ const fadeInObserver = new IntersectionObserver((entries) => {
 }, observerOptions);
 
 // Observe sections for fade-in animations
-document.querySelectorAll('.about, .experience, .education, .contact').forEach(section => {
+document.querySelectorAll('.about, .experience, .education, .contact, .hero-content, .hero-badge, .hero-title, .hero-subtitle, .hero-description, .hero-buttons, .hero-socials, .hero-visual, .education-card, .contact-card').forEach(section => {
     section.classList.add('fade-in');
     fadeInObserver.observe(section);
 });
@@ -55,22 +55,6 @@ window.addEventListener('scroll', () => {
     }
 
     lastScroll = currentScroll;
-});
-
-// ====================
-// Floating Stickers Interaction
-// ====================
-document.querySelectorAll('.sticker').forEach(sticker => {
-    sticker.addEventListener('mouseenter', () => {
-        sticker.style.transition = 'transform 0.3s ease';
-        sticker.style.transform = 'scale(1.3) rotate(15deg)';
-        sticker.style.opacity = '1';
-    });
-
-    sticker.addEventListener('mouseleave', () => {
-        sticker.style.transform = 'scale(1) rotate(0deg)';
-        sticker.style.opacity = '0.6';
-    });
 });
 
 // ====================
@@ -101,27 +85,6 @@ window.addEventListener('scroll', highlightNavigation);
 window.addEventListener('load', highlightNavigation);
 
 // ====================
-// Typing Animation for Hero Badge (Optional Enhancement)
-// ====================
-const heroBadge = document.querySelector('.hero-badge');
-if (heroBadge) {
-    const originalText = heroBadge.textContent;
-    heroBadge.textContent = '';
-    let charIndex = 0;
-
-    function typeText() {
-        if (charIndex < originalText.length) {
-            heroBadge.textContent += originalText.charAt(charIndex);
-            charIndex++;
-            setTimeout(typeText, 50);
-        }
-    }
-
-    // Start typing animation after page load
-    setTimeout(typeText, 500);
-}
-
-// ====================
 // Timeline Items Animation on Scroll
 // ====================
 const timelineObserver = new IntersectionObserver((entries) => {
@@ -138,42 +101,6 @@ const timelineObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.timeline-item').forEach(item => {
     timelineObserver.observe(item);
-});
-
-// ====================
-// Button Ripple Effect
-// ====================
-document.querySelectorAll('.btn').forEach(button => {
-    button.addEventListener('click', function(e) {
-        const ripple = document.createElement('span');
-        const rect = this.getBoundingClientRect();
-        const size = Math.max(rect.width, rect.height);
-        const x = e.clientX - rect.left - size / 2;
-        const y = e.clientY - rect.top - size / 2;
-
-        ripple.style.width = ripple.style.height = size + 'px';
-        ripple.style.left = x + 'px';
-        ripple.style.top = y + 'px';
-        ripple.classList.add('ripple');
-
-        this.appendChild(ripple);
-
-        setTimeout(() => {
-            ripple.remove();
-        }, 600);
-    });
-});
-
-// ====================
-// Parallax Effect for Hero Visual
-// ====================
-const heroVisual = document.querySelector('.hero-visual');
-
-window.addEventListener('scroll', () => {
-    if (heroVisual && window.pageYOffset < window.innerHeight) {
-        const scrolled = window.pageYOffset;
-        heroVisual.style.transform = `translateY(${scrolled * 0.3}px)`;
-    }
 });
 
 // ====================
