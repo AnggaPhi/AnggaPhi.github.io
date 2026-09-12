@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2d2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#182E23" />
+      <stop offset="100%" stop-color="#284937" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2d2)" rx="12" />
+  <!-- Storefront UI Mockup Layout -->
+  <g transform="translate(100, 80)">
+    <!-- Browser Window Frame -->
+    <rect width="600" height="440" rx="12" fill="#FFFFFF" stroke="#D4E8DD" stroke-width="2" filter="drop-shadow(0 15px 30px rgba(0,0,0,0.25))" />
+    <rect width="600" height="40" rx="12" fill="#EDFBF0" />
+    <circle cx="25" cy="20" r="5" fill="#E26D5C" />
+    <circle cx="45" cy="20" r="5" fill="#ECC30B" />
+    <circle cx="65" cy="20" r="5" fill="#5BAA6F" />
+    <!-- Storefront Hero Banner -->
+    <rect x="25" y="60" width="550" height="140" rx="8" fill="#F7FFF8" stroke="#D4E8DD" stroke-width="1.5" />
+    <text x="50" y="105" fill="#213331" font-family="'Inter', sans-serif" font-weight="700" font-size="22">Authentic Ceramic Craft</text>
+    <text x="50" y="130" fill="#4A635E" font-family="'Inter', sans-serif" font-size="14">Multi-Channel Catalog • Shopee &amp; Tokopedia Optimized</text>
+    <rect x="50" y="145" width="110" height="30" rx="6" fill="#2E7D52" />
+    <text x="75" y="165" fill="#FFFFFF" font-family="'Space Mono', monospace" font-size="12">SHOP NOW</text>
+    <!-- Product Grid Mockup -->
+    <g transform="translate(25, 220)">
+      <!-- Item 1 -->
+      <rect width="170" height="190" rx="8" fill="#F7FFF8" stroke="#D4E8DD" stroke-width="1" />
+      <circle cx="85" cy="65" r="40" fill="#EDFBF0" stroke="#7FCD91" stroke-width="1.5" />
+      <rect x="20" y="125" width="90" height="12" rx="3" fill="#213331" />
+      <rect x="20" y="145" width="50" height="10" rx="2" fill="#5BAA6F" />
+      <rect x="20" y="163" width="70" height="14" rx="4" fill="#2E7D52" />
+      <!-- Item 2 -->
+      <g transform="translate(190, 0)">
+        <rect width="170" height="190" rx="8" fill="#F7FFF8" stroke="#D4E8DD" stroke-width="1" />
+        <circle cx="85" cy="65" r="40" fill="#EDFBF0" stroke="#7FCD91" stroke-width="1.5" />
+        <rect x="20" y="125" width="110" height="12" rx="3" fill="#213331" />
+        <rect x="20" y="145" width="60" height="10" rx="2" fill="#5BAA6F" />
+        <rect x="20" y="163" width="70" height="14" rx="4" fill="#2E7D52" />
+      </g>
+      <!-- Item 3 -->
+      <g transform="translate(380, 0)">
+        <rect width="170" height="190" rx="8" fill="#F7FFF8" stroke="#D4E8DD" stroke-width="1" />
+        <circle cx="85" cy="65" r="40" fill="#EDFBF0" stroke="#7FCD91" stroke-width="1.5" />
+        <rect x="20" y="125" width="80" height="12" rx="3" fill="#213331" />
+        <rect x="20" y="145" width="55" height="10" rx="2" fill="#5BAA6F" />
+        <rect x="20" y="163" width="70" height="14" rx="4" fill="#2E7D52" />
+      </g>
+    </g>
+  </g>
+</svg>

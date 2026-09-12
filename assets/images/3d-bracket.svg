@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3d1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14261D" />
+      <stop offset="100%" stop-color="#233E31" />
+    </linearGradient>
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7FCD91" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#5BAA6F" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3d1)" rx="12" />
+  <!-- Grid Lines -->
+  <g stroke="#2E5040" stroke-width="1" opacity="0.4">
+    <path d="M 50,0 L 50,600 M 150,0 L 150,600 M 250,0 L 250,600 M 350,0 L 350,600 M 450,0 L 450,600 M 550,0 L 550,600 M 650,0 L 650,600 M 750,0 L 750,600" />
+    <path d="M 0,50 L 800,50 M 0,150 L 800,150 M 0,250 L 800,250 M 0,350 L 800,350 M 0,450 L 800,450 M 0,550 L 800,550" />
+  </g>
+  <!-- Technical Isometric Bracket Blueprint -->
+  <g transform="translate(400, 310)">
+    <!-- Base Plate -->
+    <polygon points="-160,80 0,160 160,80 0,0" fill="#244B36" stroke="#7FCD91" stroke-width="2.5" />
+    <polygon points="-160,80 0,160 0,190 -160,110" fill="#1B3828" stroke="#7FCD91" stroke-width="2" />
+    <polygon points="0,160 160,80 160,110 0,190" fill="#142B1F" stroke="#7FCD91" stroke-width="2" />
+    <!-- Mounting Holes -->
+    <ellipse cx="-70" cy="80" rx="20" ry="10" fill="#14261D" stroke="#A8E6B4" stroke-width="1.5" />
+    <ellipse cx="70" cy="80" rx="20" ry="10" fill="#14261D" stroke="#A8E6B4" stroke-width="1.5" />
+    <!-- Upright Support Column -->
+    <polygon points="-60,30 60,-30 60,-150 -60,-90" fill="#2E5D43" stroke="#95E1B3" stroke-width="2.5" />
+    <polygon points="60,-30 110,-55 110,-175 60,-150" fill="#1F422F" stroke="#7FCD91" stroke-width="2" />
+    <!-- Center Pivot Bore -->
+    <ellipse cx="0" cy="-120" rx="32" ry="16" fill="#14261D" stroke="#A8E6B4" stroke-width="2" />
+    <path d="M -32,-120 L -32,-80 A 32 16 0 0 0 32 -80 L 32,-120" fill="none" stroke="#7FCD91" stroke-width="1.5" stroke-dasharray="4,4" />
+    <!-- Dimension Marker -->
+    <line x1="-180" y1="80" x2="-180" y2="110" stroke="#7FCD91" stroke-width="1.5" />
+    <text x="-210" y="100" fill="#A8E6B4" font-family="'Space Mono', monospace" font-size="14">30mm</text>
+  </g>
+  <!-- Spec Badge -->
+  <rect x="40" y="40" width="230" height="60" rx="8" fill="#102319" stroke="#37684C" stroke-width="1.5" />
+  <text x="55" y="66" fill="#7FCD91" font-family="'Space Mono', monospace" font-weight="700" font-size="14">CAD: BLENDER v3.8+</text>
+  <text x="55" y="86" fill="#A8E6B4" font-family="'Inter', sans-serif" font-size="12">Tolerance ±0.15mm • FDM Cura</text>
+</svg>

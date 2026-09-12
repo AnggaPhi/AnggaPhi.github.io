@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2d1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#192A22" />
+      <stop offset="100%" stop-color="#264336" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2d1)" rx="12" />
+  <!-- Card Mockup Container -->
+  <g transform="translate(180, 70)">
+    <rect width="440" height="460" rx="16" fill="#FFFFFF" stroke="#D4E8DD" stroke-width="2" filter="drop-shadow(0 15px 30px rgba(0,0,0,0.25))" />
+    <!-- Header Banner -->
+    <rect width="440" height="110" rx="16" fill="#EDFBF0" />
+    <text x="35" y="55" fill="#213331" font-family="'Inter', sans-serif" font-weight="700" font-size="20">Pottery Workshop Guide</text>
+    <text x="35" y="80" fill="#4A635E" font-family="'Inter', sans-serif" font-size="13">Scan to view step-by-step video tutorial</text>
+    <!-- QR Code Area Visual -->
+    <g transform="translate(135, 140)">
+      <rect width="170" height="170" rx="12" fill="#F7FFF8" stroke="#7FCD91" stroke-width="2" />
+      <!-- Stylized QR blocks -->
+      <rect x="20" y="20" width="40" height="40" fill="#213331" rx="4" />
+      <rect x="30" y="30" width="20" height="20" fill="#F7FFF8" rx="2" />
+      <rect x="110" y="20" width="40" height="40" fill="#213331" rx="4" />
+      <rect x="120" y="30" width="20" height="20" fill="#F7FFF8" rx="2" />
+      <rect x="20" y="110" width="40" height="40" fill="#213331" rx="4" />
+      <rect x="30" y="120" width="20" height="20" fill="#F7FFF8" rx="2" />
+      <rect x="75" y="25" width="20" height="20" fill="#2E7D52" rx="2" />
+      <rect x="75" y="60" width="25" height="45" fill="#213331" rx="2" />
+      <rect x="110" y="75" width="35" height="20" fill="#213331" rx="2" />
+      <rect x="75" y="120" width="30" height="25" fill="#213331" rx="2" />
+      <rect x="120" y="115" width="25" height="30" fill="#2E7D52" rx="2" />
+    </g>
+    <!-- Tutorial Steps Hints -->
+    <text x="50" y="360" fill="#213331" font-family="'Inter', sans-serif" font-weight="600" font-size="14">1. Center Clay • 2. Open Base • 3. Shape Walls</text>
+    <text x="100" y="390" fill="#4A635E" font-family="'Inter', sans-serif" font-size="12">Designed for Rumah Tanah Liat Citra Packages</text>
+    <!-- Badge -->
+    <rect x="120" y="415" width="200" height="30" rx="15" fill="#2E7D52" />
+    <text x="145" y="435" fill="#FFFFFF" font-family="'Space Mono', monospace" font-weight="700" font-size="11">CUSTOMER EXPERIENCE</text>
+  </g>
+</svg>

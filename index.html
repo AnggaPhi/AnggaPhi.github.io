@@ -3,6 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Angga Prawira - E-Commerce Specialist, 3D Printing Specialist, AI Explorer, and IT Consultant based in Tangerang Selatan, Indonesia.">
+    <meta name="keywords" content="Angga Prawira, Portfolio, 3D Printing, Blender, Cura, E-Commerce, Tokopedia, Shopee, TikTok Shop, AI Prompt Engineering, IT Support">
+    <meta name="author" content="Angga Prawira">
+    <meta name="theme-color" content="#5BAA6F">
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.ico">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="Angga Prawira | Portfolio">
+    <meta property="og:description" content="E-Commerce Specialist, 3D Printing Specialist, AI Explorer, and IT Consultant based in Tangerang Selatan.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://anggaphi.github.io/">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Angga Prawira | Portfolio">
+    <meta name="twitter:description" content="E-Commerce Specialist, 3D Printing Specialist, AI Explorer, and IT Consultant.">
+
     <title>Angga Prawira | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +31,15 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="/" class="logo">AnggaPhi<span class="blink">_</span></a>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
             <ul class="nav-menu">
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
                 <li class="dropdown">
                     <a href="#" class="nav-link dropbtn">Portfolio <span class="drop-arrow">▼</span></a>
                     <div class="dropdown-content">
@@ -26,12 +47,12 @@
                         <a href="/2dportfolio">2D Work</a>
                     </div>
                 </li>
-                <li><a href="/work" class="nav-link">Work</a></li>
-                <li><a href="/education" class="nav-link">Studies</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
 
+    <main>
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
@@ -54,13 +75,13 @@
                 </a>
             </div>
             <div class="hero-socials">
-                <a href="https://linkedin.com/in/anggaprawira/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <a href="https://linkedin.com/in/anggaprawira/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn" aria-label="LinkedIn Profile">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" fill="currentColor"/>
                     </svg>
                 </a>
-                <a href="mailto:anggaprawira5.0@outlook.com" class="social-link" title="Email">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <a href="mailto:anggaprawira5.0@outlook.com" class="social-link" title="Email" aria-label="Send Email">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                         <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
                     </svg>
                 </a>
@@ -386,6 +407,7 @@
             </div>
         </div>
     </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">

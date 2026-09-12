@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3d2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11221A" />
+      <stop offset="100%" stop-color="#1E392B" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3d2)" rx="12" />
+  <!-- Caliper & Calibration Marks -->
+  <g stroke="#2D5440" stroke-width="1" opacity="0.4">
+    <circle cx="400" cy="300" r="120" fill="none" stroke-dasharray="6,6" />
+    <circle cx="400" cy="300" r="180" fill="none" stroke-dasharray="4,4" />
+    <line x1="400" y1="50" x2="400" y2="550" />
+    <line x1="100" y1="300" x2="700" y2="300" />
+  </g>
+  <!-- 3D Precision Calibration Cube / Enclosure -->
+  <g transform="translate(400, 300)">
+    <!-- Main Enclosure Outer Shell -->
+    <polygon points="-120,40 0,110 120,40 0,-30" fill="#254C37" stroke="#7FCD91" stroke-width="2.5" />
+    <polygon points="-120,40 0,110 0,170 -120,100" fill="#1B3A29" stroke="#7FCD91" stroke-width="2" />
+    <polygon points="0,110 120,40 120,100 0,170" fill="#142E20" stroke="#7FCD91" stroke-width="2" />
+    <!-- Snap-fit Ridge & Vent Slots -->
+    <path d="M -80,45 L -20,80 L -20,95 L -80,60 Z" fill="#14261D" stroke="#A8E6B4" stroke-width="1.5" />
+    <path d="M 20,80 L 80,45 L 80,60 L 20,95 Z" fill="#14261D" stroke="#A8E6B4" stroke-width="1.5" />
+    <!-- Top Recess Inner Pocket -->
+    <polygon points="-80,30 0,75 80,30 0,-15" fill="#173022" stroke="#95E1B3" stroke-width="2" />
+    <!-- Center Infill Lattice Preview -->
+    <path d="M -40,30 L 40,30 M -20,10 L 20,50 M 0,0 L 0,60" stroke="#7FCD91" stroke-width="1.5" stroke-dasharray="3,3" />
+  </g>
+  <!-- Spec Badge -->
+  <rect x="40" y="40" width="250" height="60" rx="8" fill="#102319" stroke="#37684C" stroke-width="1.5" />
+  <text x="55" y="66" fill="#7FCD91" font-family="'Space Mono', monospace" font-weight="700" font-size="14">ANYCUBIC KOBRA GO</text>
+  <text x="55" y="86" fill="#A8E6B4" font-family="'Inter', sans-serif" font-size="12">20% Gyroid Infill • Snap-Fit Joints</text>
+</svg>

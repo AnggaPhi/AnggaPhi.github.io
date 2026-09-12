@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3d3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14241B" />
+      <stop offset="100%" stop-color="#223B2D" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3d3)" rx="12" />
+  <!-- Studio Tool & Caliper Grid -->
+  <g stroke="#2C4E3A" stroke-width="1" opacity="0.35">
+    <ellipse cx="400" cy="360" rx="260" ry="100" fill="none" stroke-dasharray="8,8" />
+    <ellipse cx="400" cy="360" rx="160" ry="60" fill="none" stroke-dasharray="4,4" />
+  </g>
+  <!-- Turntable Centering Guide & Craft Ribbon Tool -->
+  <g transform="translate(400, 320)">
+    <!-- Turntable Base Wheel Disc -->
+    <ellipse cx="0" cy="50" rx="180" ry="70" fill="#204230" stroke="#7FCD91" stroke-width="2.5" />
+    <path d="M -180,50 L -180,85 A 180 70 0 0 0 180 85 L 180,50" fill="#173324" stroke="#7FCD91" stroke-width="2" />
+    <!-- Center Concentric Ceramic Rings -->
+    <ellipse cx="0" cy="50" rx="120" ry="46" fill="none" stroke="#95E1B3" stroke-width="1.5" stroke-dasharray="5,5" />
+    <ellipse cx="0" cy="50" rx="60" ry="23" fill="none" stroke="#95E1B3" stroke-width="2" />
+    <!-- 3D Printed Ergonomic Trimming Tool -->
+    <path d="M -110,-120 C -70,-150 40,-130 90,-80 C 130,-40 120,20 100,50 L 80,45 C 95,20 105,-30 75,-65 C 35,-105 -50,-120 -90,-100 Z" fill="#2E5E43" stroke="#A8E6B4" stroke-width="2.5" />
+    <circle cx="-100" cy="-110" r="14" fill="#14261D" stroke="#7FCD91" stroke-width="2" />
+  </g>
+  <!-- Spec Badge -->
+  <rect x="40" y="40" width="260" height="60" rx="8" fill="#102319" stroke="#37684C" stroke-width="1.5" />
+  <text x="55" y="66" fill="#7FCD91" font-family="'Space Mono', monospace" font-weight="700" font-size="14">WORKSHOP TOOLING</text>
+  <text x="55" y="86" fill="#A8E6B4" font-family="'Inter', sans-serif" font-size="12">Ergonomic Craft Fixture • PLA Tough</text>
+</svg>
